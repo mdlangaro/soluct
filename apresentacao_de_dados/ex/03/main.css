@@ -1,0 +1,76 @@
+table {
+    text-align: center;
+    width: 99vw;
+    border: .5px solid gray;
+    border-collapse: collapse;
+}
+
+
+tbody>tr:first-child {
+    font-weight: bold;
+}
+
+
+td, th {
+    font-size: 1.5rem;
+    padding: 10px;
+    border: .5px solid gray;
+}
+
+
+th {
+    color: gray;
+}
+
+
+tr:first-child>td:nth-child(2) {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(173, 235, 255);
+}
+
+
+tr:first-child>td:nth-child(3) {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(101, 139, 244);
+}
+
+
+tr:first-child>td:nth-child(4) {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: white;
+    background-color: rgba(255, 0, 255, 0.518);
+}
+
+
+button {
+    padding: 7.5px;
+}
+
+
+tbody>tr>td:nth-child(2)>button:only-child {
+    background-color:  rgb(173, 235, 255);
+    color: white;
+    border-radius: 5px;
+    border-style: hidden;
+}
+
+
+tbody>tr>td:nth-child(3)>button:only-child {
+    background-color: rgb(101, 139, 244);
+    border-radius: 5px;
+    border-style: hidden;
+    color: white;
+}
+
+
+tbody>tr>td:nth-child(4)>button:only-child {
+    background-color: rgba(255, 0, 255, 0.518);
+    border-radius: 5px;
+    border-style: hidden;
+    color: white;
+}

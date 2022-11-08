@@ -1,0 +1,28 @@
+table {
+    width: 50vw;
+    font-size: 22px;
+    margin: 0 25vw;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+
+td {
+    border-bottom: .5px solid black;
+    padding: 15px 15px 15px 0;
+}
+
+
+tr:only-child {
+    border-bottom: 2.5px solid black;
+}
+
+
+td:first-child {
+    font-weight: bold;
+}
+
+
+tbody>tr:hover {
+    background-color: rgba(128, 128, 128, 0.521);
+}

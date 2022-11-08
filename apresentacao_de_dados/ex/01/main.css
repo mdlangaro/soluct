@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+    border: 1px solid gray;
+    border-spacing: 0px;
+    color: white;
+    font-size: .5rem;
+}
+
+tbody td {
+    background-color: black;
+    border: .5px solid gray;
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: gray;
+    text-align: left;
+}
+
+td, th {
+    padding: 15px;
+}
